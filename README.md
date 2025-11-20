@@ -8,25 +8,40 @@
 
 ## 🌐 Просмотр документации
 
-Документация создана с использованием [mdBook](https://rust-lang.github.io/mdBook/) и доступна в виде красивого HTML-сайта.
+Документация создана с использованием [mdBook](https://rust-lang.github.io/mdBook/) и доступна в виде красивого HTML-сайта **на двух языках: русском и английском**.
 
 ### Локальный просмотр
 
-Для просмотра документации локально:
-
+**Способ 1: Страница выбора языка (рекомендуется)**
 ```bash
-cd book
+# Откройте index.html в браузере
+open index.html
+# или для Linux
+xdg-open index.html
+```
+
+**Способ 2: Прямой просмотр русской версии**
+```bash
+cd book-ru
 mdbook serve --open
 ```
 
-Документация откроется в браузере по адресу `http://localhost:3000`.
+**Способ 3: Прямой просмотр английской версии**
+```bash
+cd book-en
+mdbook serve --open
+```
 
-Альтернативно, вы можете просто открыть файл `book/book/index.html` в браузере.
+Альтернативно, вы можете просто открыть один из файлов в браузере:
+- `index.html` - страница выбора языка
+- `book-ru/book/index.html` - русская версия
+- `book-en/book/index.html` - английская версия
 
 ## 📝 Структура проекта
 
 ```
 .
+├── index.html                                     # Страница выбора языка
 ├── Описание PIANO - папка с текстовыми файлами/  # Исходные .txt файлы
 │   ├── 1 Виды управляющих элементов.txt
 │   ├── 2 Секция PIANO.txt
@@ -35,19 +50,20 @@ mdbook serve --open
 │   ├── 5 Секция PROGRAM.txt
 │   ├── 6 Секция EFFECTS.txt
 │   └── 7 Индикаторы и разъёмы.txt
-├── book/                                          # mdBook проект
+├── book-ru/                                       # Русская версия (mdBook)
 │   ├── src/                                      # Markdown файлы
 │   │   ├── README.md                            # Введение
 │   │   ├── SUMMARY.md                           # Оглавление
-│   │   ├── 01-control-types.md
-│   │   ├── 02-piano-section.md
-│   │   ├── 03-piano-right.md
-│   │   ├── 04-sample-synth.md
-│   │   ├── 05-program-section.md
-│   │   ├── 06-effects-section.md
-│   │   └── 07-indicators-connectors.md
+│   │   └── 01-07 главы на русском
 │   ├── book/                                     # Сгенерированный HTML
-│   └── book.toml                                 # Конфигурация mdBook
+│   └── book.toml                                 # Конфигурация
+├── book-en/                                       # Английская версия (mdBook)
+│   ├── src/                                      # Markdown файлы
+│   │   ├── README.md                            # Introduction
+│   │   ├── SUMMARY.md                           # Table of contents
+│   │   └── 01-07 chapters in English
+│   ├── book/                                     # Generated HTML
+│   └── book.toml                                 # Configuration
 ├── Описание PIANO.pdf                            # Исходный PDF
 └── README.md                                      # Этот файл
 ```
@@ -71,21 +87,29 @@ mdbook serve --open
    cargo install mdbook
    ```
 
-2. Соберите книгу:
+2. Соберите обе версии:
    ```bash
-   cd book
-   mdbook build
+   cd book-ru && mdbook build
+   cd ../book-en && mdbook build
    ```
 
 3. Или запустите локальный сервер с автообновлением:
    ```bash
-   cd book
-   mdbook serve
+   # Русская версия
+   cd book-ru && mdbook serve
+   
+   # Английская версия
+   cd book-en && mdbook serve
    ```
+
+## 🌍 Языки
+
+- **🇷🇺 Русский** - полный перевод всех 7 глав из оригинальных .txt файлов
+- **🇬🇧 English** - complete English translation of all 7 chapters
 
 ## ✅ Проверка целостности
 
-Все markdown файлы в директории `book/src/` точно соответствуют содержимому исходных .txt файлов. Содержимое было автоматически конвертировано и проверено на соответствие.
+Все русские markdown файлы в директории `book-ru/src/` точно соответствуют содержимому исходных .txt файлов. Содержимое было автоматически конвертировано и проверено на соответствие. Английская версия представляет собой профессиональный перевод русской документации.
 
 ## 🎹 О Nord Piano 6
 

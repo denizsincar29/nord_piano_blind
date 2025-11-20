@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nord Piano 6 Documentation for Blind Users</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        
+        .container {
+            background: white;
+            border-radius: 20px;
+            padding: 60px 40px;
+            max-width: 800px;
+            width: 100%;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            text-align: center;
+        }
+        
+        h1 {
+            color: #333;
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            font-weight: 700;
+        }
+        
+        .subtitle {
+            color: #666;
+            font-size: 1.2em;
+            margin-bottom: 50px;
+        }
+        
+        .language-selector {
+            display: flex;
+            gap: 30px;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 40px;
+        }
+        
+        .language-card {
+            flex: 1;
+            min-width: 250px;
+            max-width: 300px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border-radius: 15px;
+            padding: 40px 30px;
+            text-decoration: none;
+            color: white;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            cursor: pointer;
+        }
+        
+        .language-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 40px rgba(102, 126, 234, 0.4);
+        }
+        
+        .language-card:focus {
+            outline: 3px solid #fff;
+            outline-offset: 5px;
+        }
+        
+        .language-card .flag {
+            font-size: 4em;
+            margin-bottom: 20px;
+            display: block;
+        }
+        
+        .language-card .language-name {
+            font-size: 1.8em;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+        
+        .language-card .language-subtitle {
+            font-size: 1em;
+            opacity: 0.9;
+        }
+        
+        .info {
+            margin-top: 60px;
+            color: rgba(255, 255, 255, 0.9);
+            font-size: 0.95em;
+            line-height: 1.6;
+        }
+        
+        .info a {
+            color: rgba(255, 255, 255, 1);
+            text-decoration: underline;
+        }
+        
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2em;
+            }
+            
+            .language-card {
+                min-width: 200px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎹 Nord Piano 6</h1>
+        <p class="subtitle">Documentation for Blind Users</p>
+        <p class="subtitle">Документация для незрячих пользователей</p>
+        
+        <div class="language-selector">
+            <a href="book-en/book/index.html" class="language-card" role="button" aria-label="English documentation">
+                <span class="flag" role="img" aria-label="British flag">🇬🇧</span>
+                <div class="language-name">English</div>
+                <div class="language-subtitle">English Version</div>
+            </a>
+            
+            <a href="book-ru/book/index.html" class="language-card" role="button" aria-label="Русская документация">
+                <span class="flag" role="img" aria-label="Russian flag">🇷🇺</span>
+                <div class="language-name">Русский</div>
+                <div class="language-subtitle">Русская версия</div>
+            </a>
+        </div>
+        
+        <div class="info" style="background: rgba(102, 126, 234, 0.1); padding: 20px; border-radius: 10px; color: #333; margin-top: 40px;">
+            <p><strong>Select your language / Выберите язык</strong></p>
+            <p style="margin-top: 10px;">Comprehensive guide to Nord Piano 6 controls and functions, specially adapted for blind users.</p>
+            <p style="margin-top: 10px;">Подробное руководство по управлению и функциям Nord Piano 6, специально адаптированное для незрячих пользователей.</p>
+        </div>
+    </div>
+</body>
+</html>

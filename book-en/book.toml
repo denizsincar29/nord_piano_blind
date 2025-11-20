@@ -1,0 +1,10 @@
+[book]
+title = "Nord Piano 6 Description for Blind Users"
+authors = ["denizsincar29"]
+language = "en"
+description = "Detailed description of Nord Piano 6 controls and functions for blind users"
+
+[output.html]
+default-theme = "light"
+preferred-dark-theme = "navy"
+git-repository-url = "https://github.com/denizsincar29/nord_piano_blind"
