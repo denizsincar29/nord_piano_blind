@@ -13,9 +13,7 @@ Description of indicators, buttons, and other controls on the front panel.
 
 ### 1. FADERS
 
-**FADERS** consist of:
-- Physical slider
-- LED indicator
+**FADERS** consist of a physical slider and an LED indicator.
 
 ### 2. VOLUME REGULATORS
 

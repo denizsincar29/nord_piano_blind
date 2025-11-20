@@ -4,3 +4,4 @@ book-en/book/
 
 # Old book directory (can be removed after verification)
 book-old/
+dist/
