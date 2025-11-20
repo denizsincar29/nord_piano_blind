@@ -1,43 +1,153 @@
 # Right Half of PIANO Section
 
-## DYN COMP
+## Overview
 
-Under the heading, two round red glow indicators are placed vertically. To the left of the top one is the number 2, to the left of the bottom one is the number 1. To the right in the middle between them is the number 3. Below them is a black button.
+The right half of the PIANO section contains dynamics, timbre controls, and model selection.
 
-The **DYN COMP** (dynamic compression) function reduces the dynamic range of the piano sound by increasing its minimum level while maintaining differences in timbre. Choose between settings 1, 2, and 3, where 3 provides maximum compression.
+## DYN COMP (Dynamic Compression)
 
-Below this button on the left is a round red glow indicator and the inscription PEDAL NOISE. This is the pedal mechanical noise playback function (Shift + DYN COMP), it is available if a Nord Triple Pedal or Nord Single Pedal 2 is connected to the Nord Piano 6.
+**Location:** Left part of the right half
+
+**Elements:**
+- Heading **DYN COMP**
+- Three round red glow indicators (vertically)
+  - Top left: **2**
+  - Bottom left: **1**
+  - Right between them: **3**
+- Black button below indicators
+
+**Function:**
+
+**DYN COMP** (dynamic compression) reduces the dynamic range of piano sound by increasing its minimum level while maintaining timbre differences.
+
+**Settings:** 1, 2, 3 (where 3 provides maximum compression)
+
+### PEDAL NOISE
+
+**Location:** Below DYN COMP button
+
+**Elements:**
+- Round red glow indicator (left)
+- Label **PEDAL NOISE**
+
+**Function:**
+
+Mechanical pedal noise playback (Shift + DYN COMP).
+
+**Available:** When Nord Triple Pedal or Nord Single Pedal 2 is connected.
 
 ## UNISON
 
-Below is the heading UNISON.
+**Location:** Below DYN COMP
 
-Below are vertically two round red glow indicators. To the left of the top one is the number 2, to the left of the bottom one is the number 1. To the right in the middle between them is the number 3.
+**Elements:**
+- Heading **UNISON**
+- Three round red glow indicators (vertically)
+  - Top left: **2**
+  - Bottom left: **1**
+  - Right between them: **3**
+- Black button
 
-Below them is a black button. The **UNISON** function uses transposed timbres of adjacent keys to create a stereophonic unison effect. At maximum setting, a higher degree of detuning is applied. There are three different degrees of unison: 1, 2, and 3, which vary from a barely noticeable stereo effect to more obvious detuning.
+**Function:**
 
-## KB TOUCH
+**UNISON** uses transposed timbres of adjacent keys to create a stereophonic unison effect.
 
-Next to the DYN COMP heading, that is, at the top right of the right half of the PIANO section, is the KB TOUCH heading.
+**Settings:**
+- **1** - barely noticeable stereo effect
+- **2** - moderate detuning
+- **3** - maximum detuning (highest degree of detuning)
 
-Below are vertically two round red glow indicators. To the left of the top one is the inscription NORMAL, to the left of the bottom one is the inscription HEAVY. To the right in the middle between them is the inscription LIGHT. Below them is a black button.
+## KB TOUCH (Keyboard Touch)
 
-This adjusts the dynamic characteristics according to preferences or performance context. **HEAVY** mode represents intense piano action, allowing you to play softly but expressively. With each change in touch screen settings (NORMAL and LIGHT), less effort is required for loud playback.
+**Location:** Top right of right half (next to DYN COMP)
+
+**Elements:**
+- Heading **KB TOUCH**
+- Three round red glow indicators (vertically)
+  - Top left: **NORMAL**
+  - Bottom left: **HEAVY**
+  - Right between them: **LIGHT**
+- Black button
+
+**Function:**
+
+Adjusts dynamic characteristics according to preferences or performance context.
+
+**Modes:**
+- **HEAVY** - intense piano action, allows playing softly but expressively
+- **NORMAL** - standard sensitivity
+- **LIGHT** - less effort required for loud playback
 
 ## TIMBRE
 
-Below is the TIMBRE heading.
+**Location:** Below KB TOUCH
 
-Below it are vertically three round red glow indicators. Below them is a black button. To the left of the top indicator is the inscription BRIGHT (emphasizes the high-frequency range), to the left of the middle one is the inscription MID (middle mode reduces emphasis on both high and low frequencies), to the left of the bottom one is the inscription SOFT (smooth setting: mutes high frequencies and emphasizes low frequencies). To the right in the middle between the first and second indicators is the inscription DYNO1, below it, between the second and third indicators is the inscription DYNO2. DYNO 1 and DYNO 2 are based on sounds created by 70s-80s electric pianos with metal reeds.
+**Elements:**
+- Heading **TIMBRE**
+- Five round red glow indicators (vertically)
+- Black button
 
-Below the button is the inscription PIANO INFO. When pressing the combination Shift + UNISON, additional information about the currently selected model is displayed, such as the version number and exact size.
+**Timbre Modes:**
+
+**Left column (basic):**
+- **BRIGHT** (top) - Emphasizes high-frequency range
+- **MID** (middle) - Middle mode reduces emphasis on both high and low frequencies
+- **SOFT** (bottom) - Smooth setting: mutes high frequencies, emphasizes low frequencies
+
+**Right column (electric pianos):**
+- **DYNO1** (between BRIGHT and MID) - Based on 70s-80s electric piano sounds with metal reeds
+- **DYNO2** (between MID and SOFT) - Second variant of same era electric piano sound
+
+### PIANO INFO
+
+**Location:** Below TIMBRE button
+
+**Label:** PIANO INFO
+
+**Function:**
+
+Pressing **Shift + UNISON** displays additional information about currently selected model:
+- Version number
+- Exact size
 
 ## PIANO SELECT
 
-Below, across the width of half the PIANO section, is a larger heading PIANO SELECT. Two horizontal lines extend to the right and left of it.
+**Location:** Bottom, across width of half PIANO section
 
-Below it on the right is a block of indicators and a button below them. This is a button for selecting the desired type or category of piano sound. The indicators look like six red glow triangles pointing left and right. They are arranged in three rows of two. The LEDs indicate the type of currently selected piano model.
+**Heading:** PIANO SELECT (with horizontal lines on left and right)
 
-At the top left is the inscription ELECTRIC (electric pianos based on stringed instruments), in the middle left is the inscription UPRIGHT (upright pianos), at the bottom left is the inscription GRAND (large acoustic and electric grand pianos). At the top right is the inscription CLAV (clavinet and clavichord), in the middle right is the inscription DIGITAL (digital instruments and virtual instruments with sound layering technique), at the bottom right is the inscription MISC (various sounds).
+### Category Selection Button
 
-To the left of the button and indicators is a round regulator, which is signed below with an icon of a rectangle with three horizontal lines inside and the word MODEL. This is the model selection scale, to select a piano sound according to the selected type.
+**Location:** Right below heading
+
+**Elements:**
+- Six red glow triangles pointing left and right
+- Arranged in three rows of two
+- Black button below indicators
+
+**Sound Categories:**
+
+**Left column:**
+- **ELECTRIC** (top) - Electric pianos based on stringed instruments
+- **UPRIGHT** (middle) - Upright pianos
+- **GRAND** (bottom) - Large acoustic and electric grand pianos
+
+**Right column:**
+- **CLAV** (top) - Clavinets and clavichords
+- **DIGITAL** (middle) - Digital instruments and virtual instruments with sound layering technique
+- **MISC** (bottom) - Miscellaneous sounds
+
+LEDs indicate the type of currently selected piano model.
+
+### MODEL Regulator
+
+**Location:** Left of button and indicators
+
+**Description:**
+- Round regulator
+- Label with rectangle icon with three horizontal lines inside
+- Word **MODEL**
+
+**Function:**
+
+Model selection scale to choose piano sound according to selected type.
