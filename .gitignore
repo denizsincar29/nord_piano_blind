@@ -1,0 +1,10 @@
+# mdBook generated files
+book-ru/book/
+book-en/book/
+
+# Old book directory (can be removed after verification)
+book-old/
+dist/
+
+# Environment configuration
+.env

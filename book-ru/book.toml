@@ -1,0 +1,10 @@
+[book]
+title = "Описание Nord Piano 6 для незрячих"
+authors = ["denizsincar29"]
+language = "ru"
+description = "Подробное описание управляющих элементов и функций Nord Piano 6 для незрячих пользователей"
+
+[output.html]
+default-theme = "light"
+preferred-dark-theme = "navy"
+git-repository-url = "https://github.com/denizsincar29/nord_piano_blind"
