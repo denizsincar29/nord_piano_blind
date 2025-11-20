@@ -1,6 +1,39 @@
 #!/bin/bash
 set -e
 
+# Parse command line arguments
+BUILD_DIR=""
+while getopts "d:" opt; do
+  case $opt in
+    d)
+      BUILD_DIR="$OPTARG"
+      ;;
+    \?)
+      echo "Invalid option: -$OPTARG" >&2
+      echo "Usage: $0 [-d directory]"
+      exit 1
+      ;;
+  esac
+done
+
+# Load from .env if BUILD_DIR not specified
+if [ -z "$BUILD_DIR" ] && [ -f .env ]; then
+    source .env
+fi
+
+# Use default 'dist' if still not specified
+if [ -z "$BUILD_DIR" ]; then
+    BUILD_DIR="dist"
+fi
+
+# If directory was specified via -d flag, save it to .env
+if [ "$#" -gt 0 ] && [ "$1" = "-d" ]; then
+    echo "BUILD_DIR=\"$BUILD_DIR\"" > .env
+    echo "📝 Build directory saved to .env: $BUILD_DIR"
+    echo "   Next time you don't need to specify the build directory."
+    echo ""
+fi
+
 echo "🔨 Building Nord Piano 6 Documentation..."
 echo ""
 
@@ -16,7 +49,7 @@ fi
 
 # Clean previous builds
 echo "🧹 Cleaning previous builds..."
-rm -rf book-ru/book book-en/book dist
+rm -rf book-ru/book book-en/book "$BUILD_DIR"
 
 # Build Russian version
 echo "📚 Building Russian version..."
@@ -32,18 +65,18 @@ cd ..
 
 # Create distribution folder
 echo "📦 Creating distribution folder..."
-mkdir -p dist
-cp -r book-ru/book dist/book-ru
-cp -r book-en/book dist/book-en
-cp index.html dist/
+mkdir -p "$BUILD_DIR"
+cp -r book-ru/book "$BUILD_DIR/book-ru"
+cp -r book-en/book "$BUILD_DIR/book-en"
+cp index.html "$BUILD_DIR/"
 
 echo ""
 echo "✅ Build complete!"
 echo ""
-echo "📁 Distribution folder: ./dist/"
-echo "   - dist/index.html (language selection)"
-echo "   - dist/book-ru/ (Russian documentation)"
-echo "   - dist/book-en/ (English documentation)"
+echo "📁 Distribution folder: $BUILD_DIR"
+echo "   - $BUILD_DIR/index.html (language selection)"
+echo "   - $BUILD_DIR/book-ru/ (Russian documentation)"
+echo "   - $BUILD_DIR/book-en/ (English documentation)"
 echo ""
-echo "🚀 To deploy, copy the entire 'dist' folder to your web server"
-echo "💻 To test locally: python3 -m http.server 8000 --directory dist"
+echo "🚀 To deploy, copy the entire '$BUILD_DIR' folder to your web server"
+echo "💻 To test locally: python3 -m http.server 8000 --directory $BUILD_DIR"

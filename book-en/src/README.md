@@ -26,6 +26,8 @@ Use the navigation on the left to move between sections. Each section contains a
 
 This guide is based on the original Nord Piano 6 documentation and adapted for maximum convenience for blind users.
 
+The text of this documentation was prepared by a volunteer from the website [опиши-мне.рф](https://опиши-мне.рф/). Without their help, creating this guide would not have been possible.
+
 ## Language
 
 🇷🇺 [Русская версия](../book-ru/book/index.html) | 🇬🇧 English version
