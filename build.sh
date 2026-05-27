@@ -16,9 +16,14 @@ while getopts "d:" opt; do
   esac
 done
 
-# Load from .env if BUILD_DIR not specified
+# Load from .env if BUILD_DIR not specified via flag
+# Supports both DEPLOY_DIR and BUILD_DIR variable names in .env
 if [ -z "$BUILD_DIR" ] && [ -f .env ]; then
     source .env
+    # Prefer DEPLOY_DIR if set, fall back to BUILD_DIR
+    if [ -n "$DEPLOY_DIR" ]; then
+        BUILD_DIR="$DEPLOY_DIR"
+    fi
 fi
 
 # Use default 'dist' if still not specified
@@ -26,11 +31,11 @@ if [ -z "$BUILD_DIR" ]; then
     BUILD_DIR="dist"
 fi
 
-# If directory was specified via -d flag, save it to .env
-if [ "$#" -gt 0 ] && [ "$1" = "-d" ]; then
-    echo "BUILD_DIR=\"$BUILD_DIR\"" > .env
-    echo "📝 Build directory saved to .env: $BUILD_DIR"
-    echo "   Next time you don't need to specify the build directory."
+# If directory was specified via -d flag, save it to .env as DEPLOY_DIR
+if [ -n "$OPTARG" ] || { [ "$#" -ge 2 ] && [ "$1" = "-d" ]; }; then
+    echo "DEPLOY_DIR=\"$BUILD_DIR\"" > .env
+    echo "📝 Deploy directory saved to .env: $BUILD_DIR"
+    echo "   Next time you don't need to specify the deploy directory."
     echo ""
 fi
 
