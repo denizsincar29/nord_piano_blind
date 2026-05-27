@@ -1,153 +1,152 @@
 # Right Half of PIANO Section
 
-## Overview
+The right half of the PIANO section contains dynamic control, timbre shaping, and model selection. It is visually distinct from the left half but shares the same gray frame.
 
-The right half of the PIANO section contains dynamics, timbre controls, and model selection.
+---
 
 ## DYN COMP (Dynamic Compression)
 
-**Location:** Left part of the right half
+Located at the top-left of the right half.
 
-**Elements:**
-- Heading **DYN COMP**
-- Three round red glow indicators (vertically)
-  - Top left: **2**
-  - Bottom left: **1**
-  - Right between them: **3**
-- Black button below indicators
+Three small round red indicators are arranged in a triangular pattern:
+- **2** — top left
+- **1** — bottom left
+- **3** — right, between the other two
 
-**Function:**
+Below the indicators is a black selector button.
 
-**DYN COMP** (dynamic compression) reduces the dynamic range of piano sound by increasing its minimum level while maintaining timbre differences.
+**What it does:** Dynamic Compression reduces the overall dynamic range of the piano sound by boosting the minimum level while preserving tonal differences. This is useful for playing situations where consistent volume is important.
 
-**Settings:** 1, 2, 3 (where 3 provides maximum compression)
+**Settings (press the button to cycle):**
+- **1** — lightest compression
+- **2** — moderate compression
+- **3** — maximum compression (highest dynamic reduction)
 
-### PEDAL NOISE
+When the instrument is off, no indicator is lit.
 
-**Location:** Below DYN COMP button
+### PEDAL NOISE (Shift + DYN COMP button)
 
-**Elements:**
-- Round red glow indicator (left)
-- Label **PEDAL NOISE**
+A round red indicator to the left of the label **PEDAL NOISE**, below the DYN COMP button.
 
-**Function:**
+**What it does:** Enables or disables the playback of mechanical pedal noise — the subtle click and thud heard when pressing a real piano sustain pedal.
 
-Mechanical pedal noise playback (Shift + DYN COMP).
+**Available only when:** A **Nord Triple Pedal** or **Nord Single Pedal 2** is connected to the Triple Pedal or Sustain Pedal input.
 
-**Available:** When Nord Triple Pedal or Nord Single Pedal 2 is connected.
+**Pedal Noise Level** is set globally in the Sound Menu (Menu setting 3). Range: +/- 6 dB.
+
+---
 
 ## UNISON
 
-**Location:** Below DYN COMP
+Located below DYN COMP, sharing the same indicator layout (three round red indicators: **1**, **2**, **3**) and a black selector button.
 
-**Elements:**
-- Heading **UNISON**
-- Three round red glow indicators (vertically)
-  - Top left: **2**
-  - Bottom left: **1**
-  - Right between them: **3**
-- Black button
-
-**Function:**
-
-**UNISON** uses transposed timbres of adjacent keys to create a stereophonic unison effect.
+**What it does:** Unison uses transposed timbres from adjacent keys to create a stereophonic widening effect. Higher settings produce stronger detuning and stereo spread.
 
 **Settings:**
-- **1** - barely noticeable stereo effect
-- **2** - moderate detuning
-- **3** - maximum detuning (highest degree of detuning)
+- **1** — subtle stereo widening, barely noticeable
+- **2** — moderate detuning, clearly audible stereo spread
+- **3** — maximum detuning and stereo spread
+
+### PIANO INFO (Shift + UNISON button)
+
+Pressing **Shift + UNISON** shows information about the currently selected piano model on the display:
+- Version number
+- Exact file size
+
+Useful for identifying which version of a piano is loaded, especially after downloading new sounds from nordkeyboards.com.
+
+---
 
 ## KB TOUCH (Keyboard Touch)
 
-**Location:** Top right of right half (next to DYN COMP)
+Located at the top-right of the right half, beside the DYN COMP area.
 
-**Elements:**
-- Heading **KB TOUCH**
-- Three round red glow indicators (vertically)
-  - Top left: **NORMAL**
-  - Bottom left: **HEAVY**
-  - Right between them: **LIGHT**
-- Black button
+Three round red indicators arranged vertically:
+- **NORMAL** — top left
+- **HEAVY** — bottom left
+- **LIGHT** — right, between the two
 
-**Function:**
+Below is a black selector button.
 
-Adjusts dynamic characteristics according to preferences or performance context.
+**What it does:** Adjusts how hard you need to press keys to produce a given volume level. This does not change the mechanical weight of the keys — only the velocity sensitivity curve.
 
-**Modes:**
-- **HEAVY** - intense piano action, allows playing softly but expressively
-- **NORMAL** - standard sensitivity
-- **LIGHT** - less effort required for loud playback
+**Settings:**
+- **HEAVY** — requires more force to play loudly; ideal for expressive piano playing with a wide dynamic range
+- **NORMAL** — the standard balanced response
+- **LIGHT** — small key movements produce loud sounds; easier for fast passages
+
+---
 
 ## TIMBRE
 
-**Location:** Below KB TOUCH
+Located below KB TOUCH. Five round red indicators arranged with three on the left and two on the right, and a black selector button.
 
-**Elements:**
-- Heading **TIMBRE**
-- Five round red glow indicators (vertically)
-- Black button
+**What it does:** Adjusts the tonal character of the selected piano sound. The available timbre options differ by instrument type.
 
-**Timbre Modes:**
+### Acoustic Piano Timbre Settings (GRAND, UPRIGHT)
 
-**Left column (basic):**
-- **BRIGHT** (top) - Emphasizes high-frequency range
-- **MID** (middle) - Middle mode reduces emphasis on both high and low frequencies
-- **SOFT** (bottom) - Smooth setting: mutes high frequencies, emphasizes low frequencies
+- **SOFT** — reduces high frequencies and emphasizes lows; warm and mellow
+- **MID** — balanced midrange; reduces both high and low emphasis
+- **BRIGHT** — emphasizes upper frequencies; bright and present
 
-**Right column (electric pianos):**
-- **DYNO1** (between BRIGHT and MID) - Based on 70s-80s electric piano sounds with metal reeds
-- **DYNO2** (between MID and SOFT) - Second variant of same era electric piano sound
+### Electric Piano Timbre Settings (ELECTRIC)
 
-### PIANO INFO
+- **SOFT**, **MID**, **BRIGHT** — same as acoustic
+- **DYNO1** — models the tonal character of 1970s–80s electric pianos with metal tines; positioned between BRIGHT and MID on the LED
+- **DYNO2** — a second variant of the same era electric piano sound; positioned between MID and SOFT on the LED
 
-**Location:** Below TIMBRE button
+### Clavinet Timbre Settings (CLAV)
 
-**Label:** PIANO INFO
+For Clavinet sounds, timbre acts like a pickup selector and tone filter:
+- **SOFT** — pickup B only, muted filter
+- **MID** — pickup B only, medium filter (default Clavinet tone)
+- **BRIGHT** — pickup A+B together, medium filter
+- **DYNO1** — pickup A only, treble filter
+- **DYNO2** — pickup A+B, treble filter
 
-**Function:**
-
-Pressing **Shift + UNISON** displays additional information about currently selected model:
-- Version number
-- Exact size
+---
 
 ## PIANO SELECT
 
-**Location:** Bottom, across width of half PIANO section
+A wide block spanning the full width of the right half at the bottom, with the heading **PIANO SELECT** flanked by horizontal lines on each side.
 
-**Heading:** PIANO SELECT (with horizontal lines on left and right)
+### MODEL Dial
 
-### Category Selection Button
+A round encoder knob to the left of the category indicators. Below it: the list icon and the word **MODEL**.
 
-**Location:** Right below heading
+- Turn the MODEL dial to select a specific piano sound within the currently active type/category.
+- The name and position of the selected model are shown on the display.
+- **Shift + MODEL** enters List View, showing all available models in the current category as a scrollable list.
 
-**Elements:**
-- Six red glow triangles pointing left and right
-- Arranged in three rows of two
-- Black button below indicators
+### Category Selector Button and Indicators
 
-**Sound Categories:**
+Six red triangular indicators arranged in two columns of three, and a black selector button below them.
 
-**Left column:**
-- **ELECTRIC** (top) - Electric pianos based on stringed instruments
-- **UPRIGHT** (middle) - Upright pianos
-- **GRAND** (bottom) - Large acoustic and electric grand pianos
+**Left column (pressing button cycles through):**
+- **GRAND** — bottom: large acoustic and digital grand pianos
+- **UPRIGHT** — middle: upright (vertical) pianos
+- **ELECTRIC** — top: electric pianos based on tines, reeds, or strings
 
 **Right column:**
-- **CLAV** (top) - Clavinets and clavichords
-- **DIGITAL** (middle) - Digital instruments and virtual instruments with sound layering technique
-- **MISC** (bottom) - Miscellaneous sounds
+- **CLAV** — top: Clavinets and clavichords
+- **DIGITAL** — middle: digital and hybrid instruments, layered sounds
+- **MISC** — bottom: miscellaneous sounds including harpsichords and other keyboard instruments
 
-LEDs indicate the type of currently selected piano model.
+The lit indicator shows which type is currently selected. Press the button to step through all six types.
 
-### MODEL Regulator
+### About Piano File Sizes
 
-**Location:** Left of button and indicators
+Larger piano files take more memory but produce better quality sound with richer string resonance and longer sustain. When downloading new pianos from nordkeyboards.com, file size is shown alongside the piano name.
 
-**Description:**
-- Round regulator
-- Label with rectangle icon with three horizontal lines inside
-- Word **MODEL**
+### String Resonance
 
-**Function:**
+Grand and Upright piano sounds include **String Resonance** — the sympathetic vibration of unplayed strings when related keys are held or a sustain pedal is pressed. This is an authentic part of the acoustic piano experience and is automatically included in sounds that support it.
 
-Model selection scale to choose piano sound according to selected type.
+### Nord Triple Pedal Features (for Piano)
+
+When a Nord Triple Pedal 1 (connected to Sustain input) or Nord Triple Pedal 2 (connected to Triple Pedal input) is used:
+
+- **Right pedal** — Standard sustain (held notes continue after keys are released)
+- **Middle pedal** — Sostenuto (sustains only the notes held at the moment of pressing; new notes are unaffected)
+- **Left pedal** — Una Corda (soft pedal); reduces volume and slightly changes timbre
+- **Half-pedaling** is also supported: partially pressing the right pedal produces partial sustain

@@ -1,45 +1,161 @@
 # SAMPLE SYNTH Section
 
-To the right is the next large section with buttons and regulators, its name is SAMPLE SYNTH. It is highlighted only visually: light gray background of the header, a frame of the same color and a dark gray background inside the frame.
+The SAMPLE SYNTH section is the large section to the right of PIANO. Like the PIANO section, it has a light gray header, a frame of the same color, and a dark gray background inside.
 
-The SAMPLE SYNTH section is designed to work with the sample library. As with the PIANO section, special layer controls are used to combine two sample synthesizer sounds or to turn each layer on or off. Thus, the left third of the SAMPLE SYNTH section functions in the same way as the similar part of the PIANO section.
+The Sample Synth section plays back **sample instruments** — recordings of real instruments, synthesizers, sound effects, and other audio content from the **Nord Sample Library**. New samples are regularly available free at nordkeyboards.com.
 
-## Layer Controls
+The layout mirrors the Piano section closely: layer controls on the left, sound-shaping in the middle, voice/modulation controls on the right, and a sample selection area at the bottom.
 
-At the top left are two vertical slider regulators (faders) for two levels. They are adjusted using gray knobs shaped like cubes, slightly tapering towards the top. To the right of both regulators are vertical indicator scales. There are 12 rectangular sections in each scale, the level is displayed by filling these scales with green backlighting.
+---
 
-Under each slider there is a gray button: under the left one - for level A (LAYER A), under the right one - for level B (LAYER B). Above the button is the inscription ON/OFF with a down arrow, below is an indicator: a small round orange light bulb with an inscription to the right LAYER A (for the second button: LAYER B). Below are the buttons themselves.
+## Layer Controls (Left Third)
 
-The sample synthesizer section is turned on by pressing any LAYER button. The faders, equipped with LEDs, adjust the output level of each sample synthesizer layer. There are two sample synthesizer layers: A and B.
+### Layer A and B Faders
 
-Turning on the second layer is done by pressing both layer buttons simultaneously. To turn off a layer, you need to hold down the button for a short period of time. To switch from one layer to another, press the button of the inactive layer. If both layers are active, the selected layer is displayed by a blinking indicator above the layer button. Pressing the layer button also allows you to focus the effects of this layer for editing, as evidenced by the FX focus indicator in the EFFECTS section (will be described later), and the layer indicator in this case lights up red.
+Two vertical faders at the top left, with 12-segment green LED bar graphs to the right of each.
+- **Left fader** — Layer A level
+- **Right fader** — Layer B level
 
-Below each of the buttons are two more small round green glow indicators: LO and UP. Between the pairs of indicators is the inscription KB ZONE. Press the KB ZONE key (Shift+Layer A/B) to assign the sample synthesizer layer in focus to any of the active keyboard zones. Green LEDs indicate whether the layer is assigned to the lower (LO), upper (UPPER), or both keyboard zones.
+### LAYER A and LAYER B Buttons
 
-Below is the heading OCTAVE SHIFT with a left arrow and a right arrow on either side of the name. Below are two black buttons. Use OCTAVE SHIFT to transpose the selected sample synthesizer layer up or down by octaves (+/- 12 semitones). When assigned to the entire keyboard, it can be transposed one octave up or down. When assigned to a smaller zone, the available transposition values will change, but will always provide access to the full range of the sample synthesizer.
+Gray buttons below each fader. Above each: **ON/OFF** with a down arrow. Below each: a small round orange indicator labeled **LAYER A** or **LAYER B**.
 
-Below the buttons are signed alternative functions of each of them:
-- SUST PED (Shift + left OCTAVE SHIFT button, activates any connected sustain pedal for the selected sample synthesizer layer)
-- VOL PED (right OCTAVE SHIFT button, activates the connected volume control pedal for the selected sample synthesizer layer)
+**How layers work** (same logic as the Piano section):
 
-To the left of each inscription is a round red glow indicator.
+| Action | Result |
+|---|---|
+| Press one button | Turn that layer on and focus it |
+| Press both simultaneously | Turn on the second layer |
+| Hold a button | Turn that layer off |
+| Press the inactive layer button (both layers on) | Switch focus to that layer |
 
-## ENVELOPE Section
+When both layers are on, the focused layer's LED **blinks**. When that layer is focused for effects editing, the LED lights **red** and the **FX FOCUS** LED in Effects confirms it.
 
-The middle third of the SAMPLE SYNTH section has the heading ENVELOPE and contains three round step regulator knobs, located vertically one below the other. These controls allow you to set the contour or envelope of the sample.
+### KB ZONE
 
-The top one has the inscription **ATTACK** (determines the time required for the sample to reach full level), the middle one - **DECAY** (determines how quickly the sound fades when the key continues to be pressed. In the maximum position, the envelope is in sustain mode, which means that the sample instrument will sound as long as the key is pressed), and the bottom one - **RELEASE** (determines how long it will take for the sound to fade after releasing the key).
+Two small round green LEDs (**LO** and **UP**) below each layer button, with **KB ZONE** between them.
 
-Each regulator has 10 numbered positions. In the extreme left position - 0, in the vertical top position - 5, in the extreme right position - 10, but the middle DECAY regulator has SUST instead of 10.
+- **Shift + Layer A or B**: assign the focused layer to the lower zone (LO), upper zone (UP), or full keyboard (both lit).
+- Works together with the KB SPLIT function in the Program section.
 
-## Voice Mode and Effects
+### OCTAVE SHIFT
 
-The right third of the SAMPLE SYNTH section contains voice mode controls (MONO, LEGATO, GLIDE), UNISON effect, VIBRATO settings, and DYNAMICS control.
+Two black buttons below the KB ZONE area, with left and right arrows above them.
 
-## SAMPLE SELECT
+- **Left button** (down arrow): transposes the selected sample layer **down one octave** (−12 semitones)
+- **Right button** (up arrow): transposes the selected sample layer **up one octave** (+12 semitones)
 
-At the bottom, across the width of a third of the entire SAMPLE SYNTH section, is a larger heading SAMPLE SELECT. To the right and left of it extend two horizontal lines. Below it are two round regulators.
+The available range adjusts automatically when the layer is assigned to a smaller KB zone, but always keeps the full sample range accessible.
 
-The left one is signed below with an icon of a rectangle with three horizontal lines inside and the word CATEGORY, which is placed on a white background for highlighting. The right regulator is signed below with an icon of a rectangle with three horizontal lines inside and the word SAMPLE.
+**Shift functions (printed below the buttons):**
+- **SUST PED** (Shift + left button): activates the connected sustain pedal for the selected sample layer
+- **VOL PED** (Shift + right button): activates the connected volume/expression pedal for the selected sample layer
 
-The CATEGORY regulator is used to navigate and select any of the available categories, as indicated on the display. When a category is selected, all sample instruments in that category are available for selection using the SAMPLE regulator. The position and name of the selected sample instrument are displayed on the display. Pressing the SHIFT key while rotating CATEGORY or SAMPLE allows you to view sample instruments in list form.
+Each has a small round red indicator to the left of the label.
+
+---
+
+## ENVELOPE Section (Middle Third)
+
+Heading: **ENVELOPE**. Contains three round step knobs arranged vertically.
+
+### ATTACK (top knob)
+How long it takes the sample to reach full volume after a key is pressed.
+- Range: 0 (instant) to 10 (slow fade-in)
+- 10 numbered positions; the knob clicks at each step
+
+### DECAY / SUSTAIN (middle knob)
+Controls how quickly the sound fades while the key is held.
+- At maximum position (labeled **SUST** instead of 10): the sample holds at full level for as long as the key is held — this is **Sustain mode**
+- Lower values cause the sound to fade even while the key is pressed
+
+### RELEASE (bottom knob)
+How long it takes the sound to fade to silence after the key is released.
+- Range: 0 (immediate cutoff) to 10 (long fade)
+- 10 numbered positions
+
+**Preset envelopes:** When you select a new sample instrument, Attack, Decay/Sustain, and Release values are automatically set to a default appropriate for that sound. You can adjust them further manually.
+
+---
+
+## Voice Mode and Modulation (Right Third)
+
+### DYNAMICS
+
+Controls how the sample responds to key velocity (how hard you press).
+- Higher settings = wider dynamic range (soft touch = quiet, hard touch = loud)
+- Lower settings = more uniform volume regardless of velocity
+- Useful when using the Sample Synth to play pad or string sounds where consistent dynamics are preferable
+
+### MONO / LEGATO (Voice Mode)
+
+A selector button with indicators for **MONO** and **LEGATO**.
+
+- **POLY** (neither lit) — default: multiple notes can be played simultaneously
+- **MONO** — only one note sounds at a time; new notes cut off previous ones
+- **LEGATO** — monophonic, but when a new key is pressed while another is held, the new note starts from the current phase of the envelope rather than retriggering it — creates smoother melodic lines
+
+### GLIDE
+
+A round knob that sets the glide (portamento) rate — how long it takes for pitch to slide from one note to the next.
+- Only audible in **MONO** or **LEGATO** voice mode
+- Rate 0 = no glide (instant note-to-note); Rate 10 = very slow slide
+
+### UNISON
+
+Same layout as the Piano Unison (three round red indicators: **1**, **2**, **3**, and a selector button).
+
+- Stacks multiple detuned voices for a richer, wider sound
+- **1** = subtle; **2** = moderate; **3** = heavy detuning and stereo width
+
+### VIBRATO
+
+**VIBRATO MODE** (selector button with indicators):
+- **OFF** — no vibrato
+- **AUTO** — vibrato is applied continuously to the sample
+- **BTN** — vibrato is only applied when the **VIBRATO** button on the Master section (left panel) is pressed
+
+**RATE knob:** Controls vibrato speed (how fast the pitch oscillates). Range 0–10.
+
+**AMOUNT knob:** Controls vibrato depth (how much the pitch changes). Range 0–10.
+
+**VIBRATO ENABLE** (Shift + Vibrato button in Master section): enables or disables the vibrato button function for the currently focused sample layer, independently of other layers.
+
+---
+
+## SAMPLE SELECT (Bottom)
+
+A wide heading **SAMPLE SELECT** spans the bottom of the section, flanked by horizontal lines.
+
+### CATEGORY Dial (left)
+
+Below: the list icon and the word **CATEGORY** on a white background.
+
+- Turn to navigate through available sample categories (sorted alphabetically).
+- The selected category name appears on the display.
+- **Shift + CATEGORY** = List View of all categories
+
+### SAMPLE Dial (right)
+
+Below: the list icon and the word **SAMPLE**.
+
+- Once a category is selected, turn this dial to choose a specific sample instrument within it.
+- The sample name and position are shown on the display.
+- **Shift + SAMPLE** = List View of all samples in the current category
+
+### SAMPLE INFO (Shift + DYNAMICS button)
+
+Displays information about the currently loaded sample instrument:
+- Version number
+- File size
+
+---
+
+## Selecting a Sample — Step by Step
+
+1. Press **LAYER A** in the Sample Synth section to turn it on.
+2. Turn the **CATEGORY** dial until the desired category appears on the display. Categories include Strings, Brass, Choir, Synth Pads, Organs, Guitars, and many more.
+3. Turn the **SAMPLE** dial to pick a specific instrument within that category.
+4. Adjust **ATTACK**, **DECAY/SUSTAIN**, and **RELEASE** to shape the envelope.
+5. Use the **Layer A fader** to set the volume level.
+6. Press the **Piano LAYER A** button if you want to layer the sample with a piano sound.

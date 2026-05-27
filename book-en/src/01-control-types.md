@@ -1,64 +1,85 @@
 # Types of Control Elements
 
-## Front Panel Description
+## About the Instrument
 
-Description of indicators, buttons, and other controls on the front panel.
+The Nord Piano 6 front panel is entirely **red**. At the bottom right, above the keyboard, is the large model name **NORD PIANO 6** and the inscription **VIRTUAL ACTION TECHNOLOGY 88**. The 73-key version uses the same panel layout with the inscription **VIRTUAL ACTION TECHNOLOGY 73**.
 
-- The panel itself is **red**
-- At the bottom right above the keyboard: large model name **NORD PIANO 6** and inscription **VIRTUAL ACTION TECHNOLOGY 88**
-- Identical instrument with reduced keyboard has the same set and arrangement of keys
-- Only difference: size and full name **VIRTUAL ACTION TECHNOLOGY 76**
+The panel is laid out from left to right in clearly grouped sections: **MASTER**, **PIANO**, **SAMPLE SYNTH**, **PROGRAM**, and **EFFECTS**.
 
-## Types of Control Elements
+---
 
-### 1. FADERS
+## Control Types
 
-**FADERS** consist of a physical slider and an LED indicator.
+### 1. Faders (Sliders)
 
-### 2. VOLUME REGULATORS
+**Faders** consist of a physical slider and an LED bar graph indicator beside them.
 
-**VOLUME REGULATORS** - knobs without fixed start and stop positions, used to navigate parameters and settings.
+- The slider knob is gray, shaped like a cube slightly tapering toward the top.
+- The LED graph has 12 rectangular segments and glows green to show the current level.
+- Used for setting the output level of Piano and Sample Synth layers.
 
-**Operation features:**
-- For most settings, regulators correspond to saved values when program loads
-- When knob is turned, parameter value is tied to new knob position
-- To track current value: press and hold **SHIFT** button while turning the knob
+### 2. Dials and Knobs (Encoders / Potentiometers)
 
-### 3. Selection Buttons
+There are two types of rotary controls:
 
-**Selection buttons** are used to select one setting from a group of available options.
+**Encoders (endless dials)** have no fixed start or end position. They are used for navigating lists and parameters. The **PROGRAM** dial is the main example.
 
-**Characteristics:**
-- Equipped with round or triangular LED indicators
-- Indicators show current setting
-- Press button several times to switch between possible settings
+- To check the current stored value of any knob: press and hold **SHIFT** while turning the knob. The current value will be shown in the display.
+
+**Potentiometer knobs** are used for most sound-shaping parameters (effects levels, EQ, envelope, etc.). When a program is loaded, the physical knob position may not match the stored value. As soon as you turn the knob, the parameter snaps to the knob's current position.
+
+Both types of dials with a **list icon** (a rectangle with three horizontal lines) next to their label support **list view** mode: hold **SHIFT** and turn the dial to browse all options as a scrollable list.
+
+### 3. Selector Buttons
+
+**Selector buttons** cycle through a group of available options each time they are pressed.
+
+- Each option has a corresponding **LED indicator** — either a small round bulb or a triangular arrow.
+- The currently active option is shown by its LED being lit.
+- Press the button repeatedly to step through all available settings.
 
 ### 4. On/Off Buttons
 
-**On/off buttons** are used to activate a function or group of functions (such as effects).
+**On/Off buttons** activate or deactivate a single function or group of functions (such as an effect unit).
 
-- LED next to them lights up, indicating on/off state
+- A LED next to the button indicates the current on/off state.
 
-### 5. Buttons with Hold Function
+### 5. Hold-Function Buttons
 
-Some buttons can be held down to access a function or perform additional settings.
+Some buttons reveal a secondary action when **held down** rather than just pressed.
 
-- Indicated by text accompanied by a down arrow
+- These are identified by a **down arrow** printed next to or below the button label.
+- Example: holding the **SPLIT ON/SET** button opens the keyboard split position page.
 
-### 6. SHIFT Button
+### 6. The SHIFT Button
 
-Many controls on the Nord Piano 6 panel have additional functions indicated directly below them.
+The **SHIFT** button is the most important modifier on the instrument.
 
-**Usage:**
-- Press and hold **SHIFT** key during control to access additional functions
-- **Shift** button is also used to exit menus or cancel current save operation
+- It is located at the level of the **B note in the first octave**, oriented horizontally. No other buttons or indicators are immediately adjacent to it.
+- Many panel controls have a **secondary function** printed directly below them on the panel. That secondary function is accessed by **holding SHIFT and operating the control**.
+- SHIFT is also used to **exit menus** and to **cancel an ongoing Store operation**.
+- Most Shift functions can also be activated by **holding the main button down** for a short time, without needing to use SHIFT.
 
-## Important Notes
+---
 
-> **Note 1:** All buttons have a rectangular shape with a protruding part in the form of an elongated oval. Only colors and orientation differ: horizontal or vertical.
+## Indicator Types
 
-> **Note 2:** All indicators are LED, they look like small round bulbs or glowing triangles. Color is specified only when confirmed by instrument images.
+All indicators on the instrument are **LEDs**. They appear as:
 
-> **Note 3:** Inscription under a button indicates an additional function activated by pressing **SHIFT** + that button.
+- **Small round bulbs** — used for on/off states and option selection
+- **Glowing triangles** (pointing left or right) — used in pairs for selector buttons with multiple options
+- **LED bar graphs** — 12-segment vertical strips next to faders, glowing green for level indication
 
-> **Note 4:** The **SHIFT** button, often mentioned, is located at the B note level of the first octave, it is horizontal and there are no other buttons or indicators directly next to it.
+Color meanings vary by context:
+- **Green** — layer active, KB Zone assignment
+- **Orange** — layer indicator (standard on state)
+- **Red** — layer focused for editing (blinking = focused when both layers are on)
+
+---
+
+## Reading Panel Labels
+
+- The **main label** of a button or knob is printed **above** or directly on it.
+- The **secondary (Shift) function** is printed **below** the control.
+- A **down arrow** next to a label means that function is accessed by holding the button.
+- Inscriptions on a **white or light gray background** are section titles or category headings, not controls.

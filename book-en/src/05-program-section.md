@@ -1,68 +1,185 @@
 # PROGRAM Section
 
-To the right is the next large section with a screen, buttons and regulators, its name is PROGRAM.
+The PROGRAM section is roughly at the center of the front panel. It contains the OLED display, program navigation, storage, transpose, split, and menus. All settings for both the Piano and Sample Synth sections — as well as effects, split, and transpose configurations — are managed here.
 
-This section is located approximately in the middle of the entire front panel. A rectangular screen is placed in its center. It contains settings for both the PIANO section and the Sample Synth section, as well as for effects and any split or transposition configurations. This section navigates through programs and saves them, as well as provides access to various performance functions and settings menus. All this is provided by an OLED display, which also displays the name of any selected piano and/or sample sound. There are also menus here containing system settings, sound, pedal and MIDI settings, as well as the Organize mode used to rearrange programs.
+---
+
+## The Display
+
+A rectangular **OLED display** at the center of the PROGRAM section. It shows:
+- The current program name and number (e.g., **A:23 Pearl Drops**)
+- The names of selected piano and sample instruments
+- Parameter hints when panel controls are adjusted
+- Menu settings
+- List views when browsing programs, pianos, or samples
+- The keyboard split position when setting a split
+
+An "**E**" appears next to the program number whenever any parameter has been edited but not yet saved.
+
+---
+
+## TRANSPOSE
+
+Above the display. A round **green** indicator, the label **ON/SET** with a down arrow, and a black button.
+
+- **Press once:** toggles the stored transpose value on or off for the current program
+- **Hold down (or Shift + button):** opens the transpose settings page on the display. Use the **PROGRAM** dial to select a value from −6 to +6 semitones. Press **EXIT (Shift)** to close.
+- The transpose value is stored with each individual program.
+
+**Global Transpose** (separate from this button) is set in the **System Menu** and applies to the whole instrument, adding to any per-program transpose value.
+
+**PANIC** (Shift + TRANSPOSE): sends an "All Notes Off" MIDI message and resets all incoming CC messages. Use this if notes get stuck during a MIDI performance.
+
+---
 
 ## KB SPLIT
 
-In the upper left corner of this section and, accordingly, to the left above the screen:
+Upper-left of the PROGRAM section, above the display.
 
-The inscription KB SPLIT on a gray background. Below it is a round green glow indicator, to the right of which is the inscription ON/SET with a white down arrow and a black button. Below it is the inscription X-FADE, below which are two more round indicators, the left one of which is signed 1, and the right one - 2.
+A round **green** indicator, the label **ON/SET** with a down arrow, and a black button.
 
-The Nord Piano 6 keyboard can be split into two zones, where each piano or sample synthesizer layer can be assigned to one or both of these zones. Press the ON/SET button to activate split, and hold it down to open the keyboard split page on the display. You can then select one of 10 keyboard split positions, F2-C7. LEDs located above the keyboard indicate which split position is active.
+- **Press once:** turns the keyboard split on or off
+- **Hold down (or Shift + button):** opens the keyboard split position page. Turn the **PROGRAM** dial to choose a split point from **F2** to **C7**. The active position is indicated by LEDs above the keyboard.
 
-Normally, the transition between two keyboard zones occurs instantly, without overlaying sounds selected for each zone. By activating the X-Fade (crossfade) function, you can mix sounds at the split point, creating a smoother transition between sounds.
+### Keyboard Zones
 
-There are three different parameters that can be selected by pressing X-FADE (i.e., the combination Shift + Split On/Set):
-- Off: when the X-Fade function is turned off, there is no crossfade between sounds.
-- Value 1: corresponds to a crossfade range of plus-minus 6 semitones. The sound below the split point fades 6 notes above it, and sounds above the split point similarly reach 6 notes below it.
-- Value 2: provides a range of plus-minus 12 semitones, 12 below the split point and 12 above it.
+When Split is on, the keyboard is divided into **LO (lower)** and **UP (upper)** zones. Each Piano and Sample Synth layer can be assigned to one or both zones using **KB ZONE** (Shift + Layer button).
+
+### X-FADE (Shift + KB SPLIT button)
+
+Two round indicators labeled **1** and **2** below the main split indicator.
+
+Cross-fade creates a smooth volume blend between sounds at the split point instead of an abrupt transition.
+
+- **Off** — no crossfade; sounds switch instantly at the split point
+- **1** — crossfade range of ±6 semitones around the split point
+- **2** — crossfade range of ±12 semitones around the split point
+
+---
 
 ## MIDI Indicator
 
-Below is a separate MIDI round indicator. It blinks when incoming MIDI messages arrive at the MIDI In port or via USB connection.
+A small round indicator labeled **MIDI**, located below the KB SPLIT area.
 
-## Program Buttons
+Blinks whenever MIDI messages arrive at the **MIDI In** port or via the **USB** connection. Useful for confirming that external MIDI data is being received.
 
-At the bottom, almost the entire width of the PROGRAM section, is a white vertical wide strip with round indicators with inscriptions 1, 2, 3, 4, 5, and 6. Under each of them is a black button. Inscriptions under the buttons: PROG INIT, SYSTEM, SOUND, MIDI, PEDAL, ORGANIZE. Four short vertical lines extend downward from the screen to this zone.
+---
 
-These buttons provide instant access to a row of six programs in the current program bank. Buttons 2-5 are also used as soft buttons when working with menu settings.
+## Program Buttons (1–6)
 
-Press SYSTEM (Shift + button 2), SOUND (Shift + button 3), MIDI (Shift + button 4) or PEDAL (Shift + button 5) to enter menus with corresponding names. The PROG INIT function (Shift + button 1) allows you to initialize a program on one piano layer without any active effects. The ORGANIZE mode (Shift + button 6) allows you to move or swap programs in program banks.
+At the bottom of the PROGRAM section: six buttons in a row, each with a round indicator above it numbered **1** through **6**. Below each button is a secondary function label.
 
-## Live Mode and Num Pad
+**Primary function:** Press any button to instantly select one of the 6 programs on the current program page.
 
-To the left approximately above button 1 is a LIVE MODE round indicator, below it is a black button, below the button is a NUM PAD round indicator.
+**Secondary (Shift) functions:**
+- **PROG INIT** (Shift + 1): initializes the program — loads a single piano layer with no effects, giving a blank starting point
+- **SYSTEM** (Shift + 2): opens the System Menu
+- **SOUND** (Shift + 3): opens the Sound Menu
+- **MIDI** (Shift + 4): opens the MIDI Menu
+- **PEDAL** (Shift + 5): opens the Pedal Menu
+- **ORGANIZE** (Shift + 6): enters Organize Mode for moving and swapping programs
 
-Nord Piano 6 has six convenient live programs for viewing concerts. To select such a program, press LIVE MODE, and then any of the 1-6 buttons in the PROGRAM section. The feature of these programs is that changes made to them are saved automatically. When exiting a live program or turning off the device power, all changes made are saved without the need for manual saving.
+**Soft buttons:** When any menu is open, buttons 2–5 act as "soft buttons" to select or toggle options displayed at the bottom of the screen.
 
-NUM PAD is a numeric keypad mode. There are two different options for navigating programs and banks: the default page-by-page navigation mode and the numeric keypad mode, which is activated by pressing NUM PAD (i.e., the combination of Shift + Live Mode buttons).
+---
 
-## Transpose
+## LIVE MODE
 
-Above the screen is the inscription TRANSPOSE on a white background, below it is a round green glow indicator, to the right of which is the inscription ON/SET with a down arrow and below is a black button. Used to transpose the Nord Piano 6 in steps of plus 6/minus 6 semitones depending on the program. To set the transposition value, press and hold the ON/SET key and select the desired value. Pressing the ON/SET button turns this function on or off.
+A round indicator and a black button to the left of the program buttons row, labeled **LIVE MODE** above and **NUM PAD** below.
 
-## Program View and Store
+**Press LIVE MODE:** enters a set of 6 dedicated live programs. Select any live program with buttons 1–6. Live programs **auto-save all changes instantly** — no manual Store needed. Exit Live Mode by pressing the button again.
 
-To the right of this button is a black button with the inscription PROG VIEW above and PANIC below. Pressing the PROG VIEW button switches the display between two different viewing modes. In the default viewing mode, only the program name and number are displayed, and the bottom half of the screen is intended to display parameter hints when changing panel controls. In the second viewing mode, the program name and number are displayed in a smaller font, and the bottom half of the screen is used to display the current selection for each active layer.
+**NUM PAD** (Shift + LIVE MODE): switches to **Numeric Pad** navigation mode. In this mode, use the program buttons as a number pad to type a program number directly. Press again to exit.
 
-The PANIC function is activated using the combination Shift + Prog View in case of note hangs in MIDI setup mode or if for other reasons it is necessary to turn off all sound.
+---
 
-To the right of this button is a red STORE button with a round indicator, and below it is the inscription "STORE AS...". STORE is used to save the edited program in program storage. When saving a program, existing data in the selected memory cell is overwritten. To save a program and give it a name, use STORE AS... (Shift + Store).
+## PROG VIEW (Program View)
 
-## Program Regulator and Navigation
+A black button to the right of the TRANSPOSE area.
 
-Below this button, that is, to the right of the screen, is a black round regulator, which is signed below with an icon of a rectangle with three horizontal lines inside and the word PROGRAM.
+- **Press:** toggles between two display layouts:
+  - **Default view:** large program name and number at the top; bottom half shows parameter hints as you adjust controls
+  - **Detail view:** smaller program name/number; bottom half shows the current sound selected for each active layer
 
-The PROGRAM regulator is used to select programs and for other tasks, such as setting parameter values and entering characters in program names. Pressing the SHIFT key while turning the dial activates the LIST function, which displays all programs as a list.
+---
 
-The LIST view mode (Shift + Program regulator) also provides two additional sorting modes: Abc, i.e., in alphabetical order, or Cat, i.e., displaying all programs of the selected category.
+## STORE
 
-Below is the name PAGE/CAT with left and right arrows and two black buttons, which are placed horizontally next to each other without an empty interval between them. In the middle under the buttons is the inscription BANK with left and right arrows.
+A **red button** with a round indicator above it and **STORE AS...** printed below.
 
-The PAGE/CAT buttons are used to navigate program pages, each of which is a group of 6 programs. You can use the program BANK (combination of Shift + Page buttons) on the device, which contains 36 sections with programs, divided into 6 program pages. In program list view mode, these buttons can be used to switch between pages, alphanumeric characters, or categories depending on the selected sorting mode.
+### Store a Program (simple overwrite)
+1. Press **STORE** once — the STORE LED begins flashing and the display shows the current storage location
+2. To save to the same location, press **STORE** again to confirm
+3. To save to a different location, use the **PROGRAM** dial or page buttons to navigate to the desired slot, then press **STORE** to confirm
 
-## SHIFT/EXIT
+> As you scroll through locations during a Store operation, each program becomes active on the keyboard, letting you audition existing programs before deciding where to save.
 
-In the lower right corner of the PROGRAM section is a gray button on a white background with the inscription SHIFT above and EXIT below. Many controls on the Nord Piano 6 panel have additional functions that are indicated directly below them. To access these additional functions, press and hold the SHIFT key during control. The Shift button is also used to exit menus or cancel the current save operation.
+> Press **Shift/Exit** once to cancel a Store operation.
+
+### Name a Program — STORE AS... (Shift + STORE)
+1. Hold **Shift** and press **STORE** to open the naming page
+2. Use the **PROGRAM** dial to scroll through characters; use **PAGE** buttons to move the cursor left and right
+3. Press **STORE** again to confirm
+
+**Memory Protection:** When shipped from the factory, Memory Protect is **On**, which prevents any Store operations. To allow saving, go to the **System Menu → Memory Protect → Off**.
+
+---
+
+## PROGRAM Dial
+
+A round encoder knob to the right of the display, below the STORE button. Below it: the list icon and the word **PROGRAM**.
+
+- **Turn:** navigate through programs on the current page
+- **Shift + turn:** enter **List View** showing all programs across all banks as a scrollable list
+
+**List View sorting options** (soft buttons at bottom of screen):
+- Default — sorted by bank/page order
+- **Abc** — alphabetical by program name
+- **Cat** — sorted by category
+
+Press **Shift** again to exit List View.
+
+---
+
+## PAGE/CAT and BANK Buttons
+
+Two buttons side by side, labeled **PAGE** with left/right arrows, below the display. The label **BANK** with left/right arrows appears between them at the bottom.
+
+- **PAGE buttons:** move one page at a time (each page = 6 programs). Navigate left or right through the 6 pages within a bank.
+- **BANK** (Shift + PAGE): move between program banks (A through P = 16 banks, each with 36 programs = 576 total)
+- **In List View mode:** the PAGE buttons switch between sorting modes (name order, alphabetical, category)
+
+---
+
+## ORGANIZE Mode (Shift + Program Button 6)
+
+Allows rearranging programs within banks without using a computer.
+
+**Enter Organize:**
+1. Press **Shift + Program 6** to enter Organize mode
+2. The display shows a list of programs
+
+**Swap two programs:**
+1. Navigate to the first program using the PROGRAM dial
+2. Press the soft button labeled **Swap** (Program button 2)
+3. Navigate to the second program
+4. Press **Swap** again to confirm
+
+**Move a program:**
+1. Navigate to the program
+2. Press the soft button labeled **Move** (Program button 3)
+3. Navigate to the target location
+4. Press **Move** again to confirm
+
+> Programs can also be organized using the **Nord Sound Manager** application on a computer.
+
+---
+
+## SHIFT / EXIT Button
+
+A gray button in the lower-right corner of the PROGRAM section, on a white background. Labeled **SHIFT** above and **EXIT** below.
+
+- **Hold SHIFT** while operating any panel control to access its secondary function
+- **Press EXIT** (tap SHIFT) to exit any open menu or cancel a Store operation
+
+This is the most important modifier button on the instrument. Its position — lower right of the PROGRAM section — is the reference point for the center of the panel.

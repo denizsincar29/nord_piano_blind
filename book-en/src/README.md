@@ -1,33 +1,44 @@
-# Nord Piano 6 Description for Blind Users
+# Nord Piano 6 — Guide for Blind Users
 
-Welcome to the Nord Piano 6 guide for blind users!
+Welcome to the Nord Piano 6 guide, specially prepared for blind users.
 
 ## About This Guide
 
-This is a detailed description of the controls and functions of the Nord Piano 6 synthesizer, specially prepared for blind users. The guide contains a detailed description of all buttons, regulators, indicators, and functions of the instrument.
+This guide provides a thorough, tactile-friendly description of every control, indicator, and function on the Nord Piano 6, structured for navigation with a screen reader. All sections describe physical locations, shapes, and relationships between controls in detail.
 
-## Guide Contents
+The guide is based on the official Nord Piano 6 User Manual (OS v1.1x, Edition C) and expanded with additional detail for accessibility.
 
-The guide consists of the following sections:
+## Contents
 
-1. **Types of Control Elements** - description of button types, regulators, and indicators
-2. **PIANO Section** - left half of the section with faders and basic settings
-3. **Right Half of PIANO Section** - dynamics, timbre settings, and model selection
-4. **SAMPLE SYNTH Section** - working with the sample library and synthesizer
-5. **PROGRAM Section** - program management, transposition, and settings
-6. **EFFECTS Section** - all effects and their parameters
-7. **Indicators and Connectors** - additional indicators and rear panel description
+### Part 1: Panel Controls
+
+1. **Types of Control Elements** — all button types, knobs, faders, and indicators explained
+2. **PIANO Section** — master controls, layer faders, layer buttons, KB Zone, Octave Shift
+3. **Right Half of PIANO Section** — Dynamic Compression, Unison, KB Touch, Timbre, Piano Select, Triple Pedal features
+4. **SAMPLE SYNTH Section** — layers, Envelope (Attack/Decay/Release), voice modes, Vibrato, Sample Select
+5. **PROGRAM Section** — display, Transpose, KB Split, X-Fade, Store, Program navigation, Live Mode, menus access, Organize Mode
+6. **EFFECTS Section** — all effect blocks: FX Focus/Group, Mod1, Mod2, Equalizer, Delay, Amp, Compressor, Global Reverb
+7. **Indicators and Connectors** — keyboard split LEDs, full rear panel connector list
+
+### Part 2: Getting Started
+
+8. **Getting Started** — step-by-step tasks: hooking up, selecting programs, editing, storing, Live Mode, layering, splits, effects
+
+### Part 3: Reference
+
+9. **MIDI** — MIDI channel, recording to DAW, Local Control, Program Change, Panic
+10. **Menus** — all four menus in full: System, Sound, MIDI, Pedal; every setting explained
+11. **Connections** — every rear-panel connector described with type, function, and a summary table
+12. **MIDI Controller List** — complete table of all CC and NRPN assignments
 
 ## How to Use This Guide
 
-Use the navigation on the left to move between sections. Each section contains a detailed description of the corresponding part of the instrument, indicating the location of controls.
-
-## Source
-
-This guide is based on the original Nord Piano 6 documentation and adapted for maximum convenience for blind users.
-
-The text of this documentation was prepared by a volunteer from the website [опиши-мне.рф](https://опиши-мне.рф/). Without their help, creating this guide would not have been possible.
+Navigate using the table of contents on the left. Each chapter covers one functional area of the instrument. Controls are described from left to right and top to bottom within each section, matching the physical layout of the panel.
 
 ## Language
 
-🇷🇺 [Русская версия](../book-ru/book/index.html) | 🇬🇧 English version
+🇷🇺 [Русская версия](../../book-ru/book/index.html) | 🇬🇧 English version
+
+## Credits
+
+The original text for this guide was prepared by a volunteer from [опиши-мне.рф](https://опиши-мне.рф/). The English version and extended reference chapters were developed from the official Nord Piano 6 User Manual.
