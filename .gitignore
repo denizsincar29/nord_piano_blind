@@ -8,3 +8,4 @@ dist/
 
 # Environment configuration
 .env
+html-manual/

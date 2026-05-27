@@ -75,13 +75,22 @@ cp -r book-ru/book "$BUILD_DIR/book-ru"
 cp -r book-en/book "$BUILD_DIR/book-en"
 cp index.html "$BUILD_DIR/"
 
+# Optionally build standalone HTML manual (no mdbook needed, Python only)
+if command -v python3 &> /dev/null && [ -f build_html.py ]; then
+    echo "📚 Building standalone HTML manual..."
+    python3 build_html.py
+    mkdir -p "$BUILD_DIR/html-manual"
+    cp -r html-manual/* "$BUILD_DIR/html-manual/"
+fi
+
 echo ""
 echo "✅ Build complete!"
 echo ""
 echo "📁 Distribution folder: $BUILD_DIR"
 echo "   - $BUILD_DIR/index.html (language selection)"
-echo "   - $BUILD_DIR/book-ru/ (Russian documentation)"
-echo "   - $BUILD_DIR/book-en/ (English documentation)"
+echo "   - $BUILD_DIR/book-ru/ (Russian mdBook documentation)"
+echo "   - $BUILD_DIR/book-en/ (English mdBook documentation)"
+echo "   - $BUILD_DIR/html-manual/ (standalone accessible HTML, no mdBook needed)"
 echo ""
 echo "🚀 To deploy, copy the entire '$BUILD_DIR' folder to your web server"
 echo "💻 To test locally: python3 -m http.server 8000 --directory $BUILD_DIR"
