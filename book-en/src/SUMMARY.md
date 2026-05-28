@@ -22,3 +22,8 @@
 - [Menus](10-menus.md)
 - [Connections](11-connections.md)
 - [MIDI Controller List](12-midi-controller-list.md)
+
+# Part 4: Applications and Tools
+
+- [Nord Sound Manager](13-nord-sound-manager.md)
+- [Nord Sample Editor 4](14-nord-sample-editor.md)
