@@ -7,9 +7,3 @@ dependencies = [
     "markdown>=3.5",
     "python-dotenv>=1.0",
 ]
-
-[project.scripts]
-build = "build:main"
-
-[tool.uv]
-dev-dependencies = []
