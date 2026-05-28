@@ -112,6 +112,8 @@ A wide block spanning the full width of the right half at the bottom, with the h
 
 ### MODEL Dial
 
+📍 **Location:** PIANO section, PIANO SELECT block at bottom, left dial. Below it: list icon and label MODEL.
+
 A round encoder knob to the left of the category indicators. Below it: the list icon and the word **MODEL**.
 
 - Turn the MODEL dial to select a specific piano sound within the currently active type/category.
@@ -119,6 +121,8 @@ A round encoder knob to the left of the category indicators. Below it: the list 
 - **Shift + MODEL** enters List View, showing all available models in the current category as a scrollable list.
 
 ### Category Selector Button and Indicators
+
+📍 **Location:** PIANO section, PIANO SELECT block at bottom-right. Six triangular red indicators in two columns and a black selector button.
 
 Six red triangular indicators arranged in two columns of three, and a black selector button below them.
 

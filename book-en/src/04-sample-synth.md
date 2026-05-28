@@ -12,11 +12,15 @@ The layout mirrors the Piano section closely: layer controls on the left, sound-
 
 ### Layer A and B Faders
 
+📍 **Location:** Top-left of the PIANO section. Two vertical faders side by side.
+
 Two vertical faders at the top left, with 12-segment green LED bar graphs to the right of each.
 - **Left fader** — Layer A level
 - **Right fader** — Layer B level
 
 ### LAYER A and LAYER B Buttons
+
+📍 **Location:** PIANO section, below the layer faders. Two grey buttons: left = LAYER A, right = LAYER B.
 
 Gray buttons below each fader. Above each: **ON/OFF** with a down arrow. Below each: a small round orange indicator labeled **LAYER A** or **LAYER B**.
 
@@ -33,12 +37,16 @@ When both layers are on, the focused layer's LED **blinks**. When that layer is 
 
 ### KB ZONE
 
+📍 **Location:** PIANO and SAMPLE SYNTH sections, below layer buttons. Green LO / UP LEDs.
+
 Two small round green LEDs (**LO** and **UP**) below each layer button, with **KB ZONE** between them.
 
 - **Shift + Layer A or B**: assign the focused layer to the lower zone (LO), upper zone (UP), or full keyboard (both lit).
 - Works together with the KB SPLIT function in the Program section.
 
 ### OCTAVE SHIFT
+
+📍 **Location:** PIANO / SAMPLE SYNTH section, below the KB ZONE block. Two black arrow buttons.
 
 Two black buttons below the KB ZONE area, with left and right arrows above them.
 
@@ -82,12 +90,16 @@ How long it takes the sound to fade to silence after the key is released.
 
 ### DYNAMICS
 
+📍 **Location:** SAMPLE SYNTH section, right third, top knob.
+
 Controls how the sample responds to key velocity (how hard you press).
 - Higher settings = wider dynamic range (soft touch = quiet, hard touch = loud)
 - Lower settings = more uniform volume regardless of velocity
 - Useful when using the Sample Synth to play pad or string sounds where consistent dynamics are preferable
 
 ### MONO / LEGATO (Voice Mode)
+
+📍 **Location:** SAMPLE SYNTH section, right third. Selector button with MONO and LEGATO indicators.
 
 A selector button with indicators for **MONO** and **LEGATO**.
 
@@ -97,11 +109,15 @@ A selector button with indicators for **MONO** and **LEGATO**.
 
 ### GLIDE
 
+📍 **Location:** SAMPLE SYNTH section, right third, below VOICE MODE button. Round knob.
+
 A round knob that sets the glide (portamento) rate — how long it takes for pitch to slide from one note to the next.
 - Only audible in **MONO** or **LEGATO** voice mode
 - Rate 0 = no glide (instant note-to-note); Rate 10 = very slow slide
 
 ### UNISON
+
+📍 **Location:** PIANO section (right half) / SAMPLE SYNTH, below DYN COMP. Three round red indicators (1, 2, 3) and a black selector button.
 
 Same layout as the Piano Unison (three round red indicators: **1**, **2**, **3**, and a selector button).
 
@@ -109,6 +125,8 @@ Same layout as the Piano Unison (three round red indicators: **1**, **2**, **3**
 - **1** = subtle; **2** = moderate; **3** = heavy detuning and stereo width
 
 ### VIBRATO
+
+📍 **Location:** Far left of panel, below MASTER LEVEL knob. Grey rectangular button.
 
 **VIBRATO MODE** (selector button with indicators):
 - **OFF** — no vibrato

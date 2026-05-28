@@ -18,6 +18,8 @@ A **round knob** at the top-left of the panel, before the PIANO section begins.
 
 ### VIBRATO Button
 
+📍 **Location:** Far left of panel, below MASTER LEVEL knob. Grey button with ENABLE indicator below.
+
 A **gray rectangular button** below the Master Level knob. Below the button is a round indicator labeled **ENABLE**.
 
 - Pressing this button applies vibrato in real time to the Sample Synth sound, using the Rate and Amount settings set in the Sample Synth section.
@@ -29,6 +31,8 @@ A **gray rectangular button** below the Master Level knob. Below the button is a
 
 ### Layer A and B Faders
 
+📍 **Location:** Top-left of the PIANO section. Two vertical faders side by side.
+
 Two **vertical sliders** at the top-left of the PIANO section, side by side.
 
 - **Left fader** = Layer A level; **Right fader** = Layer B level.
@@ -36,6 +40,8 @@ Two **vertical sliders** at the top-left of the PIANO section, side by side.
 - Turning on the Piano section is done by pressing either **LAYER A** or **LAYER B** button below the faders.
 
 ### LAYER A and LAYER B Buttons
+
+📍 **Location:** PIANO section, below the layer faders. Two grey buttons: left = LAYER A, right = LAYER B.
 
 Each fader has a **gray button** below it:
 

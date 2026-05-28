@@ -1,0 +1,9 @@
+[project]
+name = "nord-piano-blind-manual"
+version = "0.2.0"
+description = "Accessible HTML manual builder for Nord Piano 6"
+requires-python = ">=3.10"
+dependencies = [
+    "markdown>=3.5",
+    "python-dotenv>=1.0",
+]

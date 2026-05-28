@@ -22,3 +22,8 @@
 - [Меню](10-menus.md)
 - [Подключения](11-connections.md)
 - [Список MIDI-контроллеров](12-midi-controller-list.md)
+
+# Часть 4: Приложения и инструменты
+
+- [Nord Sound Manager](13-nord-sound-manager.md)
+- [Nord Sample Editor 4](14-nord-sample-editor.md)
